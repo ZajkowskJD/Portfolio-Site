@@ -1,0 +1,185 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 80px;
+    z-index: 99;
+}
+
+.sidebar.maxed {
+    width: 300px;
+    background-color: darkgray;
+}
+
+.sidebar .sidebar-header-details {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sidebar .sidebar-header-details .sidebar-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.sidebar i{
+    color: aliceblue;
+    height: 40px;
+    min-width: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.sidebar .sidebar-text {
+    margin-left: 20px;
+}
+
+.image-link {
+    max-width: 35px;
+    max-height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.page {
+    position: fixed;
+    top: 0px;
+    left: 300px;
+    width: calc(100% - 300px);
+    height: 100%;
+    z-index: 2;
+}
+
+.page-header {
+    position: relative;
+    top: 1%;
+    left: 2%;
+    height: 8%;
+    width: 50%;
+    max-width: 600px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #cf9c97;
+    background-color: #91514a;
+}
+.page-header.about-page {
+    position: relative;
+    left: 17%;
+}
+
+.page-header.portfolio-page {
+    position: relative;
+    left: 27%;
+}
+
+.page-header.resume-page {
+    position: relative;
+    left: 37%
+}
+
+.page-body {
+    position: relative;
+    top: 2%;
+    left: 1%;
+    height: 88%;
+    width: 98%;
+    font-size: 24px;
+    padding-left: 1%;
+    background-color: #91514a;
+    color: #cf9c97;
+}
+
+
+/*Homepage specific classes*/
+
+.personal-summary {
+    width: 40%;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.personal-summary.list{
+    width: 50%;
+    font-size: 22px;
+}
+
+.personal-summary-image {
+    position: absolute;
+    top: 2%;
+    right:5%;
+    width: 30%;
+    background-color: salmon;
+}
+
+/*Aboutpage specific classes*/
+.about-summary {
+    width: 40%;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.about-summary-image {
+    position: absolute;
+    top: 2%;
+    right:5%;
+    width: 30%;
+    background-color: salmon;
+}
+
+/*Portfoliopage specific classes*/
+
+.portfolio-summary {
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.dropdown.portfolio {
+    left: 7%;
+    width: fit-content;
+    display: inline;
+}
+.dropdown-menu {
+    cursor: pointer;
+}
+
+.info-tab {
+    position: relative;
+    width: 66%;
+    background-color: salmon;
+    min-height: 90%;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.autopage{
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    width: calc(100% - 300px);
+    z-index: 2;
+}
+
+.page-body .row {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.col-4 {
+    padding: 20px;
+}
+
+.col-4.offset-1 img {
+    max-width: 400px;
+    max-height: 200px;
+}

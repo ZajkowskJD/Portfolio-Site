@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>James Zajkowski</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <div class="sidebar maxed">
+            <div class="sidebar-header-details">
+                <div class="sidebar-title">James Zajkowski</div>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html">
+                        <i class="bx bxs-business"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <i class='bx bxs-user'></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="portfolio.html">
+                        <i class='bx bx-folder-open' ></i>
+                        <span>Projects & Experience</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="sidebar-text">
+                <span>Contact me at:</span> <br>
+                <i class='bx bxs-phone' ></i>
+                <span>(920) 627 5112</span> <br>
+                <i class='bx bx-envelope' ></i>
+                <span>zajkowskijames@gmail.com</span> <br>
+            </div>
+            <div class="sidebar-text">
+                <img class="image-link" src="github.png" alt="My Github Page">
+                <img class="image-link" src="itch.png" alt="My itch.io Page">
+            </div>
+        </div>
+
+        <!--
+            <div>
+                <h1></h1>
+                <p></p>
+                <div class="row">
+                    <div class="col-4 offset-1"></div>
+                    <div class="col-4 offset-1"></div>
+                </div>
+            </div>
+        -->
+
+        <section class="autopage">
+            <script>
+               function item1() {
+                var html = "<div><h1>Requiem: The Lost Voices (September 2021)</h1><p>While my contributions to this project were minimal compared to my other projects, I believe it to be important because it was my first experience working on a 3D game in a team environment. Not only did this project help me along with learning introductory Unity Csharp, it laid the groundwork for my understanding of many of the Unity tools provided, namely the Animator Window and Textmeshpro UI tools. Here is a download link to the finished product.</p><a href=\"https://zaidisx.itch.io/requiem\">Take me to the Requiem itch.io page</a><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"requiem1.gif\" style=\"max-width: 400px; max-height: 200px;\"><p style=\"font-size: 14px;\">Animated title screen that I created for the game</p></div><div class=\"col-4 offset-1\"><img src=\"requiem2a.gif\" style=\"max-width: 400px; max-height: 200px;\"><p style=\"font-size: 14px;\">Gameplay footage snippet</p></div></div></div>";
+                document.getElementById("output").innerHTML = html;
+               }
+
+               function item2() {
+                document.getElementById("output").innerHTML = "<div><h1>No More Assets (November 2021)</h1><p>This was my first game jam at the UW Whitewater game development club. If I recall correctly, the theme was 'absence', which I took full advantage of to focus mainly on programming. My main goal while coding the project was to investigate alternate methods of creating movement systems, which led me to tie my character's movement to an animation state machine. It was an interesting experiment, but it became obvious early on that as the complexity of the control system grew, it would get harder and harder to anticipate how the structure of the Animator Controller flows into each state from anywhere in the machine, meaning it was not easily scalable. Below is the code from one of the states used.</p><object data=\"jetLeft.cs\" type=\"text/plain\" width=\"800\" height = \"400\"></object><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"nomoreassets2.gif\"><p style=\"font-size: 14px;\">Gameplay footage</p></div><div class=\"col-4 offset-1\"><img src=\"nomoreassets3.gif\"><p style=\"font-size: 14px;\">Demonstration of 4 separate firing patterns added to the character's weapon</p></div></div></div>";
+               }
+
+               function item3() {
+                document.getElementById("output").innerHTML = "<div><h1>Let's Make Some Noise (January 2022)</h1><p>Another solo project done for the UW club game jams, this time around I reigned in on the programming end to spread out my attention a bit more evenly. It made for good practice for following through the entire process and making a functional product under a strong deadline, but as for programming not much spectacular really went on under the hood. The most involved it got was calculating the rotation of the player based on the position of the mouse.</p><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"lmsn.gif\"><p style=\"font-size: 14px;\">Gameplay footage</p></div></div></div>";
+               }
+
+               function item4() {
+                document.getElementById("output").innerHTML = "<div><h1>Chain Game (April 2022)</h1><p>For the game jam this time around I was paired up with fellow programming student Lucas Ackman. He handled the code surrounding a core mechanic that is more or less the grappling hook from the Just Cause series, and left me in charge of building out the rest of the game. This meant that my role in the project was more oriented towards Unity package use rather than pure programming, though contributions were still made. At the end of it, I had used Unity Probuilder to make the arena, created my first NavMesh and agents with a basic zombie pathing AI, Made another Textmeshpro UI and a bare-bones audio manager. Nothing really glamorous by itself, but having experience with these 3D tools has definitely proved its worth since then.</p><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"chaingame2.gif\"><p style=\"font-size: 14px;\">Gameplay footage</p></div></div></div>";
+               }
+
+               function item5() {
+                document.getElementById("output").innerHTML = "<div><h1>Agrav Racer (April 2022)</h1><p>This is a project that I submitted for my class coursework in MAGD 272. Normally, that course is intended as an introduction to Unity, with code and assets provided by the teacher in order to ease prospective developers into the process. At this point, I had been tooling around with Unity on and off for years and had been getting serious about it within the past several months, so I felt that I needed to up my game past what was required of me as a bare minimum. When most other people were making 2D platformers with premade sprites, I ended up building a top-down arcade racer. I got some help from a Youtube tutorial in order to set up the movement in a way that allowed drifting, but when the math of it was sorted out I tinkered around with it so that the driving style was to my liking. At the end of it, I had a set of 3 tracks where the best way to navigate through them quickly was to drive through turns sideways and down straightaways in reverse. I even had time to add multiple difficulty options to the AI racers, though their pathing is far from perfect.</p><p style=\"font-size: 14px;\">Below: code for the game's time split leaderboard</p><object data=\"checkpointManager.cs\" type=\"text/plain\" width=\"800\" height=\"400\"></object><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"agravracer2.gif\"><p style=\"font-size: 14px;\">Gameplay footage</p></div><div class=\"col-4 offset-1\"><img src=\"agravracer3.gif\"><p style=\"font-size: 14px;\">Preliminary playtesting found that driving backwards caused the car to accelerate past its speed cap. I thought it made for a good way to make straightaways more fun, so I added the engine effects and score multiplier to make it official.</p></div></div></div>";
+               }
+               
+               function item6() {
+                document.getElementById("output").innerHTML = "<div><h1>Operation Big Break (October 2022)</h1><p>My largest personal project to date. The date I started development on this project was in November of 2021, taking me roughly a year to complete the demonstration project after coding and then re-coding it. It would be faster to list the parts of it I didn't make myself, those being the music tracks and a pixelart sunset background. Where most of my game jam projects have a codebase that hovers in the size of 20-40 KB, this one ended up sizing in at around 257 KB. The dedication of nearly a year's worth of free time has made this project the one I am most proud of.</p><p> Below is a collection of code snippets taken from my binary serialized formatter save system, my modified audio manager, the attack pattern AI for my boss fight, and the core page of my dialog cutscene manager. They are only a small portion of the entire project, but are integral overall and were the challenges I had the most fun solving.</p><a href=\"OBB code snippets.zip\">Download the code snippets here (ZIP file)</a><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"obb1.gif\"><p style=\"font-size: 14px;\">Title screen and some gameplay footage</p></div><div class=\"col-4 offset-1\"><img src=\"obb2.gif\"><p style=\"font-size: 14px;\">Gameplay footage</p></div></div><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"obb3.gif\"><p style=\"font-size: 14px;\">Demonstration of an in-game cutscene</p></div><div class=\"col-4 offset-1\"><img src=\"obb4.gif\"><p style=\"font-size: 14px;\">Gameplay of the boss fight</p></div></div><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"obb5.gif\"><p style=\"font-size: 14px;\">Final cutscene</p></div></div></div>";
+               }
+
+               function item7() {
+                document.getElementById("output").innerHTML = "<div><h1>Gorgon Stealth (October 2022)</h1><p>A UW game jam project where I gave assistance to a new member of the club. He had the idea of a stealth game where a medusa hides from wandering humans to prevent them from turning to stone, so I helped him learn the basics of Unity programming. Most of the code work in the project I consider to be his, but the more complicated stuff I handled on his behalf. In this instance, it was calculating the rotation of the AI humans and matching it against the angle the player was viewing them at in order to display the proper 2D sprite that indicated their rotation in the 3D space.</p><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"gorgonstealth1.gif\"><p style=\"font-size: 14px;\">Gameplay footage</p></div><div class=\"col-4 offset-1\"><img src=\"gorgonstealth2.gif\"><p style=\"font-size: 14px;\">Brief demonstration of DOOM-style spritework</p></div></div></div>";
+               }
+               
+               function item8() {
+                document.getElementById("output").innerHTML = "<div><h1>AkimBro (November 2022)</h1><p>Another solo game jam project. This one I went back to experimenting with tools more than code, but still with some interesting results. Using some online tools to separate the background music into vocal and instrumental tracks, I made a toggleable 'Combo Mode' that made the vocals fade in over the instrument track and gave the player a slight speed boost. I also took the code from Operation Big Break that turned variable text into particles and made a version that worked in 3 dimensions. Aside from that, though, I was still feeling out the best practices for 3D games and kept the rest of it pretty simple.</p><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"akimbro1.gif\"><p style=\"font-size: 14px;\">Gameplay footage</p></div><div class=\"col-4 offset-1\"><img src=\"akimbro2.gif\"><p style=\"font-size: 14px;\">Rather than space to jump, the game is programmed so that double tapping shift causes the player to do a flying leap in the direction of movement.</p></div></div><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"akimbro3.gif\"><p style=\"font-size: 14px;\">Brief demonstration of Combo Mode</p></div></div></div>";
+               }
+
+               function item9() {
+                document.getElementById("output").innerHTML = "<div><h1>Checkers (December 2022)</h1><p>This project was more of a personal challenge to myself more than anything. I wanted to benchmark my progress in learning Csharp programming and the Unity system, so I gave myself the stipulation going in that I couldn't use tutorials to help me make this, and that I had to finish it within 24 hours from the start. Overall, it was a good test of my ability because Unity's toolkit is mainly oriented towards games that occur in real time rather than in turns. The solution I ended on was that each tile on the checkerboard was in one of several states, which were modifiable by player input and the state of neighboring pieces. On one hand, I made it happen within the constraints I gave myself and a game of checkers can be played in its entirety without any bugs. On the other hand, the code that controls the tile states is both monolithic and contains several instances of boilerplate that came back to bite me through development. For that reason, I consider this to be both an accomplishment and an important mistake to learn from.</p><p style=\"font-size: 14px;\">At least at the top level, the code isn't too bad...</p><object data=\"MouseController.cs\" type=\"text/plain\" width=\"800\" height = \"400\"></object><p style=\"font-size: 14px;\">...but under the hood you can see where mistakes began piling up as I aimed for the deadline.</p><object data=\"TileController.cs\" type=\"text/plain\" width=\"800\" height = \"400\"></object><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"checkers1.gif\"><p style=\"font-size: 14px;\">Gameplay footage</p></div><div class=\"col-4 offset-1\"><img src=\"checkers2.gif\"><p style=\"font-size: 14px;\">A double capture performed by the blue side</p></div></div><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"checkers3.gif\"><p style=\"font-size: 14px;\">King me!</p></div></div></div>";
+               }
+
+               function item10() {
+                document.getElementById("output").innerHTML = "<div><h1>Root Access (February 2023)</h1><p>For this game jam, I was challenged by a peer to only use one Csharp file in my entire game. From past experience, I knew the end result would look ugly, but I tried to make it work regardless. My solution was to make a text-based game with a information-gathering puzzle spin. It's certainly cleaned up somewhat in comparison to my checkers monolith, but at the end of the day only so much can be done to salvage the situation. As for making the game proper, converting keystrokes into strings turned out to be shockingly easy, albeit my method was a bit fast and dirty.</p><object data=\"InputManager_snip.cs\" type=\"text/plain\" width=\"800\" height = \"400\"></object><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"rootaccess.gif\"><p style=\"font-size: 14px;\">Gameplay footage, which is preset to windowed mode so the player can take advantage of a notepad.</p></div></div></div>";
+               }
+
+               function item11() {
+                document.getElementById("output").innerHTML = "<div><h1>Lucidus (April 2023)</h1><p>Team game jam project between the most senior members of the UW game development club. We each wanted to showcase what we had learned over the course of our time building out the club, so each of us made a scene and we strung the minigames together one after the other. My contribution was a 3D arena fight, and it ended up being my first time working around with a complete 3D asset pack. Of the 3D games I have made so far, this one I consider to be the first benchmark of my understanding with 3D elements, as I used everything I had tinkered around with up until this point when making my contribution, and each part had a better level of polish to it than when I had first tried it out.</p><p style=\"font-size: 14px;\">One of the AI pathing variants I made for the enemy types present in my scene. This code is used on the orange fish with the charge attack.</p><object data=\"ChargerAI.cs\" type=\"text/plain\" width=\"800\" height = \"400\"></object><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"lucidus1.gif\"><p style=\"font-size: 14px;\">Gameplay footage</p></div><div class=\"col-4 offset-1\"><img src=\"lucidus2.gif\"><p style=\"font-size: 14px;\">Boss fight footage</p></div></div></div>";
+               }
+
+               function item12() {
+                document.getElementById("output").innerHTML = "<div><h1>Blacksite Theta (May 2023)</h1><p>This was a semester-long capstone project carried out by UW Whitewater's MAGD 488 class, where the entire class of around two dozen students elect a game pitch from a pool of student-submitted options and spend the whole semester developing that idea. The concept we eventually settled on was actually the one put forth by my group, which resulted in me taking on a leadership role in the class. I had a heavy hand in the early concept, so I ended up being tasked as Narrative Lead while my friend Dayne Farris - who was also in the winning group - took charge on the large-scale team management. As such, my responsibilities during the development were to act as liason between him and the various 'departments' he set up, build out the game's story throughout its development, program the tools necessary to implement the story inside of the game, and offer assistance with completing coding tasks whenever possible. From our team of 8 programmers, I contributed roughly 10% of the existing codebase directly, and assisted with other programmers work whenever possible. Though our scope was likely a bit overlarge to begin with for a single-semester project with team members of somewhat variable levels of experience, the programming team never missed a prototype deadline and my other contributions followed suit.</p><p style=\"font-size: 14px;\">Code for the dialog manager, responsible for reading in roughly 450 lines of dialog I wrote and applying special effects based on tags written into the external file.</p><object data=\"DialogueManager.cs\" type=\"text/plain\" width = \"800\" height = \"400\"></object><br><a href=\"https://day4me23.itch.io/blacksite-theta\">Link to the Blacksite Theta itch.io page</a><iframe src=\"https://www.youtube.com/watch?v=BzO_LA53Ges\" frameborder=\"0\" width = \"720\" height=\"480\"></iframe></div>";
+               }
+
+               function item13() {
+                document.getElementById("output").innerHTML = "<div><h1>Project DHPS, currently unfinished (July 2023)</h1><p>A summer I've wanted to get back to at the start of this year, but have yet to do so due to responsibilities as the new Vice President for the UW game development club along with getting my ducks in a row for my eventual graduation. That being said, the heavy lifting has been already laid out within the project, containing my most technically involved codebase to date. In it, I've created a random dungeon generator, an AI designed to autonomously maneuver through this random dungeon to find a specific object and return to the entrance without knowing the position of the object they're looking for, and some AI minions for the player to use to keep them from doing so. The turnaround on completion of this first phase of the project was about 2 months of time in between working a 40+ hr/week summer job, though the project is entirely programmer art and has a few outlying bugs that need to be addressed once I get back to it.</p><p style=\"font-size: 14px;\">The code for my dungeon generator. Essentially, it maps the area to a 2D array of ints and uses those states to determine how to place the various tiles of the map.</p><object data=\"DungeonGraphGenerator.cs\" type=\"text/plain\" width = \"800\" height = \"400\"></object><div class=\"row\"><div class=\"col-4 offset-1\"><img src=\"dhps1.gif\"><p style=\"font-size: 14px;\">Shown: generation of dungeon rooms, along with a brief demonstration of the RTS-like elements in place to facilitate use</p></div><div class=\"col-4 offset-1\"><img src=\"dhps2.gif\"><p style=\"font-size: 14px;\">An adventurer AI is spawned in search of the hoard. It receives a short list of random points on the Navmesh it can path to, and upon reaching the point closest to the objective it is notified and given the distance between itself and its objective. It uses this information to generate a new list of points within that radius, and continues to do so until it finds the objective within its line of sight sensors.</p></div></div></div>";
+               }
+            </script>
+
+            <div class="page-header portfolio-page">
+                <p>Portfolio page</p>
+            </div>
+
+            <div class="page-body">
+                <span class="row">
+                    <span class="col-3">
+                        <p class="portfolio-summary"> &emsp;&emsp;Select an item from the dropdown menu to view a description of my involvement in the project.</p>
+                        <div class="dropdown portfolio">
+                        <a class="btn btn-secondary dropdown-toggle" type="button" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Choose a project:
+                        </a>
+    
+                        <ul class="dropdown-menu">
+                            <li><a href="portfolio.html" class="dropdown-item">[Choose an item]</a></li>
+                            <li><a onclick="item1()" class="dropdown-item">Requiem: The Lost Voices</a></li>
+                            <li><a onclick="item2()" class="dropdown-item">No More Assets</a></li>
+                            <li><a onclick="item3()" class="dropdown-item">Let's Make Some Noise</a></li>
+                            <li><a onclick="item4()" class="dropdown-item">Chain Game</a></li>
+                            <li><a onclick="item5()" class="dropdown-item">Agrav Racer</a></li>
+                            <li><a onclick="item6()" class="dropdown-item">Operation Big Break</a></li>
+                            <li><a onclick="item7()" class="dropdown-item">Gorgon Stealth</a></li>
+                            <li><a onclick="item8()" class="dropdown-item">AkimBro</a></li>
+                            <li><a onclick="item9()" class="dropdown-item">Checkers</a></li>
+                            <li><a onclick="item10()" class="dropdown-item">Root Access</a></li>
+                            <li><a onclick="item11()" class="dropdown-item">Lucidus</a></li>
+                            <li><a onclick="item12()" class="dropdown-item">Blacksite Theta</a></li>
+                            <li><a onclick="item13()" class="dropdown-item">Project DHPS (in progress)</a></li>
+                        </ul>
+                        </div>
+                    </span>
+                        <div class="info-tab col-8" id="output">
+                            <h1>Project summaries (in reverse chronological order):</h1>
+                            <ul>
+                                <li>Project DHPS: Personal project I worked on over the summer between work hours. Made from programmer art, but contains a scratch-built dungeon generator, fully autonomous AI adventurers and RTS-like AI goons for the player to control. A few light building elements are also sprinkled in.</li> <br>
+                                <li>Blacksite Theta: Team Class Capstone project, when I wasn't working through my responsibilities as narrative lead on this project I lent my hand to building some of the backend systems, namely audio management and dialog implementation.</li> <br>
+                                <li>Lucidus: Team Game Jam project, for my addition to the project I made a melee-based arena combat scene and the animated cutscenes.</li> <br>
+                                <li>Root Access: Solo Game Jam project, with the added challenge of using only a single Csharp file. While the end result isn't exactly messy, it proves just why keeping code clean on larger projects is so important.</li> <br>
+                                <li>Checkers: Solo Personal project done under a self imposed time limit of 24 uninterrupted hours. Csharp ended up being utilized far more than the Unity engine for this challenge.</li> <br>
+                                <li>AkimBro: Solo Game Jam project where I experimented with using Character Controller instead of Rigidbody, along with a dynamic music system and some modified FPS controls.</li> <br>
+                                <li>Gorgon Stealth: Game Jam project where I helped a new club member realize his idea of a medusa sneaking around a maze trying to avoid turning the wandering humans inside to stone.</li> <br>
+                                <li>Operation Big Break: Solo Dev project that I coded and then re-coded over the course of about a year's worth of spare time. More or less aping Cave Story, but manages to recreate a vast majority of the mechanics. Notably, my codebase for this project contains 257KB worth of .cs files, my largest to date. </li> <br>
+                                <li>Agrav Racer: Solo developed class project; a top-down 2D arcade racer with drifting and driving backwards being core mechanics of beating the game.</li> <br>
+                                <li>Chain Game: Game Jam project partnered with Lucas Ackman, which was an experiment with recreating the Just Cause grappling hook tool.</li> <br>
+                                <li>Let's Make Some Noise: Solo Game Jam project, a simple top down arena combat game.</li> <br>
+                                <li>No More Assets: Solo Game Jam project where I fully embraced the concept of programmer art to mess around with state machines.</li> <br>
+                                <li>Requiem: The Lost Voices - I made minor contributions to this game jam project, first experience with 3D Unity.</li> <br>
+                            </ul>
+                        </div>
+                    </span>
+            </div>
+    
+ 
+        </section>
+
+        
+    </body>
+</html>
