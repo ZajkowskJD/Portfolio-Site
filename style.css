@@ -267,6 +267,9 @@
    .personal-summary{
     width: 80%;
    }
+   .about-summary{
+    width: 80%;
+   }
    img {
     width: 0%;
     display: none;
