@@ -264,4 +264,7 @@
     width: calc(100% - 50px);
     left: 50px;
    }
+   .personal-summary{
+    font-size: 12px;
+   }
 }
