@@ -264,34 +264,4 @@
     width: calc(100% - 50px);
     left: 50px;
    }
-
-   .page-header{
-    font-size: 1.5em;
-   }
-
-   .page-header.about-page{
-    font-size: 1.5em;
-   }
-
-   .page-body{
-    font-size: 1px;
-   }
-
-   .personal-summary{
-    font-size: 1px;
-   }
-
-   .personal-summary.list{
-    font-size: 1px;
-   }
-
-   .about-summary{
-    font-size: 1px;
-   }
-   .portfolio-summary{
-    font-size: 1px;
-   }
-   .info-tab{
-    font-size: 1px;
-   }
 }
