@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'young-serif';
+    src: url(YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'merriweather';
+    src: url(Merriweather-Regular.ttf);
+}
+
 .sidebar {
     position: fixed;
     left: 0;
@@ -9,7 +19,7 @@
 
 .sidebar.maxed {
     width: 300px;
-    background-color: darkgray;
+    background-color: #591A13;
 }
 
 .sidebar .sidebar-header-details {
@@ -23,11 +33,26 @@
 .sidebar .sidebar-header-details .sidebar-title {
     font-size: 24px;
     font-weight: 700;
+    font-family: 'young-serif';
+    color:#DDA7A1;
 }
 
+.nav-list{
+    list-style: none;
+    font-family: 'young-serif';
+    color: #DDA7A1;
+    padding: 0px;
+    margin: 10px;
+    padding-bottom: 12px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: inherit;
+}
 
 .sidebar i{
-    color: aliceblue;
+    color: #DDA7A1;
     height: 40px;
     min-width: 50px;
     font-size: 20px;
@@ -36,7 +61,9 @@
 }
 
 .sidebar .sidebar-text {
-    margin-left: 20px;
+    margin-left: 10px;
+    color: #DDA7A1;
+    font-family: 'young-serif';
 }
 
 .image-link {
@@ -44,7 +71,7 @@
     max-height: 35px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: 5px;
+    margin-top: 12px;
 }
 
 .page {
@@ -54,24 +81,32 @@
     width: calc(100% - 300px);
     height: 100%;
     z-index: 2;
+    background-color: #77322B;
 }
 
 .page-header {
     position: relative;
     top: 1%;
     left: 2%;
-    height: 8%;
-    width: 50%;
+    height: 8vh;
+    width: 50vh;
     max-width: 600px;
     text-align: center;
     font-size: 32px;
     font-weight: 700;
-    color: #cf9c97;
+    color: #DDA7A1;
     background-color: #91514a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .page-header.about-page {
     position: relative;
     left: 17%;
+    font-family: 'young-serif';
+    margin: 0px;
+    font-size: 3.5em;
 }
 
 .page-header.portfolio-page {
@@ -88,12 +123,13 @@
     position: relative;
     top: 2%;
     left: 1%;
-    height: 88%;
+    height: 88vh;
     width: 98%;
     font-size: 24px;
     padding-left: 1%;
     background-color: #91514a;
     color: #cf9c97;
+    overflow: auto;
 }
 
 
@@ -124,7 +160,8 @@
     width: 40%;
     padding: 10px;
     padding-top: 20px;
-    font-size: 18px;
+    font-size: 1em;
+    font-family: 'merriweather';
 }
 
 .about-summary-image {
