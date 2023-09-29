@@ -266,21 +266,3 @@
     left: 50px;
    }
 }
-@media (pointer: coarse) {
-    .sidebar.maxed {
-        width: 0px;
-        display: none;
-       }
-       .sidebar.mobile {
-        width: 50px;
-        display:flex;
-       }
-       .page{
-        width: calc(100% - 50px);
-        left:50px;
-       }
-       .autopage{
-        width: calc(100% - 50px);
-        left: 50px;
-       }
-}
