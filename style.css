@@ -103,7 +103,6 @@
     width: 50vh;
     max-width: 600px;
     text-align: center;
-    font-size: 32px;
     font-weight: 700;
     color: #DDA7A1;
     background-color: #91514a;
@@ -264,5 +263,35 @@
    .autopage{
     width: calc(100% - 50px);
     left: 50px;
+   }
+
+   .page-header{
+    font-size: 1.5em;
+   }
+
+   .page-header.about-page{
+    font-size: 1.5em;
+   }
+
+   .page-body{
+    font-size: 12px;
+   }
+
+   .personal-summary{
+    font-size: 12px;
+   }
+
+   .personal-summary.list{
+    font-size: 12px;
+   }
+
+   .about-summary{
+    font-size: 12px;
+   }
+   .portfolio-summary{
+    font-size: 12px;
+   }
+   .info-tab{
+    font-size: 12px;
    }
 }
