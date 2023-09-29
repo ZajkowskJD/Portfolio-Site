@@ -264,8 +264,11 @@
     width: calc(100% - 50px);
     left: 50px;
    }
+   .page-body{
+    width: 80%;
+   }
    img {
-    width: 0px;
+    width: 0%;
     display: none;
    }
 }
