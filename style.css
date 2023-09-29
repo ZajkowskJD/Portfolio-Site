@@ -132,7 +132,6 @@
     padding-left: 1%;
     background-color: #91514a;
     color: #cf9c97;
-    overflow: auto;
 }
 
 
@@ -200,7 +199,7 @@
     min-height: 90%;
     color: antiquewhite;
     font-size: 20px;
-    padding: 10px;
+    padding: 16px;
     overflow: auto;
 }
 
