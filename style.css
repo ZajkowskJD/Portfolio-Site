@@ -86,8 +86,8 @@
 
 .page-header {
     position: relative;
-    top: 1%;
-    left: 2%;
+    top: 2%;
+    left: 1%;
     height: 8vh;
     width: 50vh;
     max-width: 600px;
@@ -99,6 +99,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'young-serif';
+    margin: 0px;
+    font-size: 3.5em;
 }
 
 .page-header.about-page {
@@ -139,7 +142,8 @@
     width: 40%;
     padding: 10px;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 1em;
+    font-family: 'merriweather';
 }
 
 .personal-summary.list{
@@ -196,13 +200,14 @@
     min-height: 90%;
     color: antiquewhite;
     font-size: 20px;
-    padding: 10px;
+    /*padding: 10px;*/
+    overflow: auto;
 }
 
 .autopage{
     position: absolute;
     top: 0px;
-    left: 300px;
+    left: 300vh;
     width: calc(100% - 300px);
     z-index: 2;
 }
@@ -219,4 +224,8 @@
 .col-4.offset-1 img {
     max-width: 400px;
     max-height: 200px;
+}
+
+.autopage{
+    background-color: #77322B;
 }
