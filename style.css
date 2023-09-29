@@ -8,6 +8,8 @@
     src: url(Merriweather-Regular.ttf);
 }
 
+
+
 .sidebar {
     position: fixed;
     left: 0;
@@ -20,6 +22,16 @@
 .sidebar.maxed {
     width: 300px;
     background-color: #591A13;
+}
+
+.sidebar.mobile {
+    background-color: #591A13;
+    width: 0%;
+    display: none;
+}
+
+.sidebar.mobile .nav-list{
+    margin: 0px;
 }
 
 .sidebar .sidebar-header-details {
@@ -79,7 +91,6 @@
     top: 0px;
     left: 300px;
     width: calc(100% - 300px);
-    height: 100%;
     z-index: 2;
     background-color: #77322B;
 }
@@ -126,12 +137,14 @@
     position: relative;
     top: 2%;
     left: 1%;
-    height: 88%;
     width: 98%;
     font-size: 24px;
     padding-left: 1%;
+    padding-bottom: 5%;
     background-color: #91514a;
     color: #cf9c97;
+    height: 860px;
+    overflow: auto;
 }
 
 
@@ -141,13 +154,13 @@
     width: 40%;
     padding: 10px;
     padding-top: 20px;
-    font-size: 1em;
+    font-size: 24px;
     font-family: 'merriweather';
 }
 
 .personal-summary.list{
     width: 50%;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .personal-summary-image {
@@ -163,7 +176,7 @@
     width: 40%;
     padding: 10px;
     padding-top: 20px;
-    font-size: 1em;
+    font-size: 24px;
     font-family: 'merriweather';
 }
 
@@ -180,7 +193,7 @@
 .portfolio-summary {
     padding: 10px;
     padding-top: 20px;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .dropdown.portfolio {
@@ -198,7 +211,7 @@
     background-color: salmon;
     min-height: 90%;
     color: antiquewhite;
-    font-size: 20px;
+    font-size: 24px;
     padding: 16px;
     overflow: auto;
 }
@@ -226,4 +239,31 @@
 
 .autopage{
     background-color: #77322B;
+}
+
+.jank {
+    font-family: 'merriweather';
+}
+
+
+
+
+@media(max-width:768px){
+   .sidebar.maxed {
+    width: 0px;
+    display: none;
+   }
+   .sidebar.mobile {
+    width: 50px;
+    display:flex;
+   }
+   .page{
+    width: calc(100% - 50px);
+    left:50px;
+   }
+   .autopage{
+    width: calc(100% - 50px);
+    left: 50px;
+   }
+
 }
