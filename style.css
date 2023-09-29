@@ -264,14 +264,4 @@
     width: calc(100% - 50px);
     left: 50px;
    }
-   .personal-summary{
-    width: 80%;
-   }
-   .about-summary{
-    width: 80%;
-   }
-   img {
-    width: 0%;
-    display: none;
-   }
 }
