@@ -248,7 +248,7 @@
 
 
 
-@media(max-width:768px){
+@media(max-width:480px){
    .sidebar.maxed {
     width: 0px;
     display: none;
