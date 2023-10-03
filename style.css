@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'young-serif';
+    src: url(YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'merriweather';
+    src: url(Merriweather-Regular.ttf);
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-height:100vh;
+    width: 16vw;
+    background-color: #591A13;
+}
+
+.sidebar .sidebar-header-details {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sidebar .sidebar-header-details .sidebar-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'young-serif';
+    color:#DDA7A1;
+}
+
+.sidebar .sidebar-text {
+    margin-left: 10px;
+    color: #DDA7A1;
+    font-family: 'young-serif';
+}
+
+.sidebar i{
+    color: #DDA7A1;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.nav-list{
+    list-style: none;
+    font-family: 'young-serif';
+    color: #DDA7A1;
+    padding: 0px;
+    margin: 10px;
+    padding-bottom: 12px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.image-link {
+    max-width: 35px;
+    max-height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 12px;
+}
+
+.page {
+    position: relative;
+    top: 0;
+    left: 16vw;
+    width: 84vw;
+    min-height: 100vh;
+    z-index: 2;
+    background-color: #77322B;
+    overflow: auto;
+}
+
+.page-header {
+    position: absolute;
+    top: 2vh;
+    left: 18vw;
+    height: 8vh;
+    width: 50vw;
+    max-width: 600px;
+    text-align: center;
+    font-weight: 700;
+    color: #DDA7A1;
+    background-color: #91514a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'young-serif';
+    margin: 0px;
+    font-size: 32px;
+}
+
+.page-body {
+    position: absolute;
+    top: 12vh;
+    left: 2vw;
+    width: 60vw;
+    font-size: 24px;
+    padding-left: 1vw;
+    padding-bottom: 5vh;
+    background-color: #91514a;
+    color: #cf9c97;
+}
+
+.personal-summary-image {
+    position: fixed;
+    top: 12vh;
+    right:2vw;
+    width: 18vw;
+    background-color: salmon;
+}
+
+/*Aboutpage specific classes*/
+.about-summary {
+    width: 40vw;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'merriweather';
+}
+
+.about-summary-image {
+    position: fixed;
+    top: 2vh;
+    right: 2vw;
+    width: 18vw;
+    background-color: salmon;
+}
+
+/*catalog page stuff*/
+
+.dropdown.portfolio {
+    width: fit-content;
+    display: inline;
+}
+.dropdown-menu {
+    cursor: pointer;
+}
+
+.autopage{
+    position: absolute;
+    left: 16vw;
+    width: 84vw;
+    z-index: 2;
+    height: 100vh;
+    background-color: #77322B;
+        overflow: auto;
+}
+
+.info-tab {
+    position: relative;
+    width: 66%;
+    min-height: 90%;
+    font-size: 24px;
+    padding: 16px;
+}
+
+.col-4.offset-1 img {
+    max-width: 30vw;
+    max-height: 15vh;
+}
