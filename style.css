@@ -94,6 +94,7 @@
     min-height: 100vh;
     z-index: 2;
     background-color: #77322B;
+    overflow: auto;
 }
 
 .page-header {
@@ -143,7 +144,6 @@
     padding-bottom: 5%;
     background-color: #91514a;
     color: #cf9c97;
-    overflow: auto;
 }
 
 
