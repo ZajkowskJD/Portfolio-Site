@@ -8,27 +8,33 @@
     src: url(Merriweather-Regular.ttf);
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 2000px) {
     html {
         font-size: 24px;
     }
 }
 
-@media (max-width: 1400px) {
-    html {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1475px) {
     html {
         font-size: 16px;
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 975px) {
     html {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 843px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 550px) {
+    .desktop-only {
+        display: none;
     }
 }
 
