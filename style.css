@@ -8,12 +8,37 @@
     src: url(Merriweather-Regular.ttf);
 }
 
+@media (max-width: 1920px) {
+    html {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1400px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 12px;
+    }
+}
+
 .html {
     scroll-behavior: smooth;
+    font-size: 24px;
 }
 
 .sidebar{
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     min-height:100vh;
@@ -30,7 +55,7 @@
 }
 
 .sidebar .sidebar-header-details .sidebar-title {
-    font-size: 24px;
+    font-size: 1rem;
     font-weight: 700;
     font-family: 'young-serif';
     color:#DDA7A1;
@@ -40,12 +65,13 @@
     margin-left: 10px;
     color: #DDA7A1;
     font-family: 'young-serif';
+    font-size: 0.6rem;
 }
 
 .sidebar i{
     color: #DDA7A1;
     height: 40px;
-    font-size: 24px;
+    font-size: 1rem;
     text-align: center;
     line-height: 40px;
 }
@@ -57,6 +83,7 @@
     padding: 0px;
     margin: 10px;
     padding-bottom: 12px;
+    font-size: 0.8rem;
 }
 
 .nav-list a{
@@ -99,7 +126,7 @@
     align-items: center;
     font-family: 'young-serif';
     margin: 0px;
-    font-size: 32px;
+    font-size: 1.33rem;
 }
 
 .page-body {
@@ -107,7 +134,7 @@
     top: 12vh;
     left: 2vw;
     width: 60vw;
-    font-size: 24px;
+    font-size: 1rem;
     padding-left: 1vw;
     padding-bottom: 5vh;
     background-color: #91514a;
@@ -127,7 +154,7 @@
     width: 40vw;
     padding: 10px;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: .8rem;
     font-family: 'merriweather';
 }
 
@@ -163,11 +190,19 @@
     position: relative;
     width: 66%;
     min-height: 90%;
-    font-size: 24px;
+    font-size: 1rem;
     padding: 16px;
+}
+
+.info-tab h1 {
+    font-size: 1.33rem;
 }
 
 .col-4.offset-1 img {
     max-width: 30vw;
     max-height: 15vh;
+}
+
+.jank a{
+    font-size: 1rem;
 }
