@@ -209,6 +209,14 @@
     max-height: 15vh;
 }
 
+.jank {
+    font-family: 'merriweather';
+}
+
 .jank a{
     font-size: 1rem;
+}
+
+.always-hide {
+    display: none;
 }
