@@ -34,14 +34,20 @@
 
 @media (max-width: 550px) {
     .desktop-only {
-        display: none;
+        display: inline-block;
+        visibility: hidden;
+        width: 0;
+        height: 0;
     }
+
 }
 
 .html {
     scroll-behavior: smooth;
     font-size: 24px;
 }
+
+
 
 .sidebar{
     position: absolute;
@@ -73,13 +79,14 @@
     font-family: 'young-serif';
     font-size: 0.6rem;
 }
+.sidebar .sidebar-text a img {
+    filter: invert(69%) sepia(11%) saturate(895%) hue-rotate(318deg) brightness(105%) contrast(84%);
+}
 
-.sidebar i{
-    color: #DDA7A1;
-    height: 40px;
-    font-size: 1rem;
-    text-align: center;
-    line-height: 40px;
+.sidebar img{
+    max-width: 3vw;
+    max-height: 3vh; 
+    filter: invert(69%) sepia(11%) saturate(895%) hue-rotate(318deg) brightness(105%) contrast(84%);
 }
 
 .nav-list{
